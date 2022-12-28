@@ -1,0 +1,23 @@
+.introducao__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60vh;
+    margin-bottom: .5rem;
+}
+
+.introducao__video {
+    margin: 0 3rem;
+}
+
+.introducao__texto {
+    color: #fdfdfd;
+    font-weight: 300;
+    padding: 1rem 4rem;
+}
+
+.destaque {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
