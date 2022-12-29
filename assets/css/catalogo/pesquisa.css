@@ -1,34 +1,34 @@
 .pesquisa__titulo {
-    font-weight: 700;
-    font-size: 1.7rem;
-    padding: 2rem 2rem 2rem 0;
     color: #14cc73;
+    font-size: 1.7rem;
+    font-weight: 700;
+    padding: 2rem 2rem 2rem 0;
 }
 
 .catalogo__pesquisa {
-    padding: 0 3rem 3rem 3rem;
     color: #fdfdfd;
     font-weight: 300;
+    padding: 0 3rem 3rem 3rem;
 }
 
 .pesquisa__input {
-    width: 30%;
-    font-size: 1rem;
     background-color: transparent;
     border: 1px dashed #14cc73;
-    color:#fdfdfd;
     border-radius: 0.3rem;
+    color:#fdfdfd;
     font-family: 'Montserrat';
+    font-size: 1rem;
     padding: .4rem;
+    width: 30%;
 }
 
 .pesquisa__botao {
-    color:#FFFFFF;
     background: #0d9b56;
-    font-size: 1rem;
-    font-weight: 700;
     border: none;
     border-radius: 0.5rem;
+    color:#FFFFFF;
+    font-size: 1rem;
+    font-weight: 700;
     padding: .5rem;
 }
 
@@ -37,17 +37,17 @@
 }
 
 .pesquisa__filtro {
-    border: 1px dashed #14cc73;
     background: #161616;
+    border: 1px dashed #14cc73;
+    border-radius: 0.5rem;
     color:#fdfdfd;
     font-size: 1rem;
     margin-left: 1rem;
-    border-radius: 0.5rem;
 }
 
 .filtro__opcao{
-    font-weight: 300;
     font-family: 'Montserrat';
+    font-weight: 300;
 }
 
 
