@@ -1,0 +1,50 @@
+.series__container {
+    background-color: #000000;
+    margin: 5rem 0;
+    border-radius: .8rem;
+    box-shadow: 6px 6px 17px 3px rgba(0,0,0,0.7);
+    padding: 2rem;
+}
+
+.series__titulo {
+    font-weight: 700;
+    font-size: 1.7rem;
+    padding: 2rem;
+    color: #14cc73;
+}
+
+.series__titulo:before{
+    content:"📺"
+}
+
+.series__lista {
+    display: flex;
+    flex-direction: row;
+}
+
+.series__item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+    padding: 1rem;
+}
+
+.serie__titulo {
+    color: #fdfdfd;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 1rem 0.5rem;
+}
+
+.serie__imagem {
+    width: 11.5rem;
+    height: 17.063rem;
+}
+
+.serie__imagem:hover {
+    opacity: 0.7;
+}

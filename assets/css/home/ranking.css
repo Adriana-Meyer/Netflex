@@ -26,7 +26,8 @@
 }
 
 .ranking__item:hover{
-    transform:scale(120%)
+    transform:scale(120%);
+    transition: 1s;
 }
 
 .item__titulo {

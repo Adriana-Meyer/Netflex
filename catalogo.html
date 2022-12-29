@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflex - Catálogo</title>
+    <link rel="icon" type="imagem/png" href="./assets/img/logo-N.png" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link href="./assets/css/reset.css" rel="stylesheet">
+    <link href="./assets/css/global.css" rel="stylesheet">      
+    <link href="./assets/css/cabecalho.css" rel="stylesheet">
+    <link href="./assets/css/rodape.css" rel="stylesheet">
+    <link href="./assets/css/catalogo/pesquisa.css" rel="stylesheet">
+    <link href="./assets/css/catalogo/filmes.css" rel="stylesheet">
+    <link href="./assets/css/catalogo/series.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho__container">
+            <a href="index.html"><img src="./assets/img/logo.png" class="cabecalho__logo"></a>
+            <nav class="cabecalho__menu">
+                <ul class="cabecalho__lista">
+                    <li class="cabecalho__listaItem"><a class="cabecalho__link" href="index.html">Home</a></li>
+                    <li class="cabecalho__listaItem"><a class="cabecalho__link" href="catalogo.html">Catálogo</a></li>
+                    <li class="cabecalho__listaItem"><a class="cabecalho__link__botao" href="#">Cadastre-se</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="catalogo__principal">
+
+        <section class="catalogo__pesquisa">
+            <h2 class="pesquisa__titulo">Confira nosso catálogo completo</h2>
+            <form>
+                <label for="pesquisa">Encontre seus filmes e séries favoritos:</label>
+                <input type="search" id="pesquisa" class="pesquisa__input" placeholder="Digite sua pesquisa aqui">
+                <input type="submit" value="Pesquisar" class="pesquisa__botao">
+
+                <fieldset>
+                    <legend>Selecione o filtro desejado: <select class="pesquisa__filtro">
+                        <option class="filtro__opcao"> Filmes</option>
+                        <option class="filtro__opcao"> Séries</option>
+                        <option class="filtro__opcao" selected> Todos </option>
+                    </select>       
+                    </legend>      
+                </fieldset>
+            </form>
+        </section>
+
+        <section class="filmes__container">
+            <h2 class="filmes__titulo">Filmes:</h2>
+            <ul class="filmes__lista">
+                <li class="filmes__item">
+                    <h3 class="filme__titulo">Harry Potter e a pedra filosofal</h3>
+                    <img class="filme__imagem" src="./assets/img/filme1.jpg" title="Harry Potter e a pedra filosofal" alt="Poster do filme: Harry Potter e a pedra filosofal">
+                </li>
+                <li class="filmes__item">
+                    <h3 class="filme__titulo">Sonic 2</h3>
+                    <img class="filme__imagem" src="./assets/img/filme2.jpg" title="Sonic 2" alt="Poster do filme: Sonic 2">
+                </li>
+                <li class="filmes__item">
+                    <h3 class="filme__titulo">Forrest Gump</h3>
+                    <img class="filme__imagem" src="./assets/img/filme3.jpg" title="Forrest Gump" alt="Poster do filme: Forrest Gump">
+                </li>
+                <li class="filmes__item">
+                    <h3 class="filme__titulo">Just like Heaven</h3>
+                    <img class="filme__imagem" src="./assets/img/filme4.jpg" title="Just like Heaven" alt="Poster do filme: Just like Heaven">
+                </li>
+                <li class="filmes__item">
+                    <h3 class="filme__titulo">E.T.</h3>
+                    <img class="filme__imagem" src="./assets/img/filme5.jpg" title="E.T." alt="Poster do filme: E.T.">
+                </li>
+                <li class="filmes__item">
+                    <h3 class="filme__titulo">Wall-e</h3>
+                    <img class="filme__imagem" src="./assets/img/filme6.jpg" title="Wall-e" alt="Poster do filme: Wall-e">
+                </li>
+            </ul>
+        </section>
+
+        <section class="series__container">
+            <h2 class="series__titulo">Séries:</h2>
+            <ul class="series__lista">
+                <li class="series__item">
+                    <h3 class="serie__titulo">Supergirl</h3>
+                    <img class="serie__imagem" src="./assets/img/serie1.jpg" title="Supergirl" alt="Poster da série: Supergirl">
+                </li>
+                <li class="series__item">
+                    <h3 class="serie__titulo">House MD</h3>
+                    <img class="serie__imagem" src="./assets/img/serie2.jpg" title="House MD" alt="Poster da série: House MD">
+                </li>
+                <li class="series__item">
+                    <h3 class="serie__titulo">Wandavision</h3>
+                    <img class="serie__imagem" src="./assets/img/serie3.jpg" title="Wandavision" alt="Poster da série: Wandavision">
+                </li>
+                <li class="series__item">
+                    <h3 class="serie__titulo">CSI: Miami</h3>
+                    <img class="serie__imagem" src="./assets/img/serie4.jpg" title="CSI: Miami" alt="Poster da série: CSI: Miami">
+                </li>
+                <li class="series__item">
+                    <h3 class="serie__titulo">The good place</h3>
+                    <img class="serie__imagem" src="./assets/img/serie5.jpg" title="The good place" alt="Poster da série: The good place">
+                </li>
+                <li class="series__item">
+                    <h3 class="serie__titulo">Only Murders in the Building</h3>
+                    <img class="serie__imagem" src="./assets/img/serie6.jpg" title="Only Murders in the Building" alt="Poster da série: Only Murders in the Building">
+                </li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+        <p class="rodape__conteudo"> &copy; Todos os direitos reservados</p>
+
+    </footer>
+    
+</body>
+</html>

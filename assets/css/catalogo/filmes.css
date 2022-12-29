@@ -1,0 +1,50 @@
+.filmes__container {
+    background-color: #000000;
+    margin: 1rem 0;
+    border-radius: .8rem;
+    box-shadow: 6px 6px 17px 3px rgba(0,0,0,0.7);
+    padding: 2rem;
+}
+
+.filmes__titulo {
+    font-weight: 700;
+    font-size: 1.7rem;
+    padding: 2rem;
+    color: #14cc73;
+}
+
+.filmes__titulo:before{
+    content:"🎬"
+}
+
+.filmes__lista {
+    display: flex;
+    flex-direction: row;
+}
+
+.filmes__item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+    padding: 1rem;
+}
+
+.filme__titulo {
+    color: #fdfdfd;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 1rem 0.5rem;
+}
+
+.filme__imagem {
+    max-width: 11.5rem;
+    max-height: 17.063rem;
+}
+
+.filme__imagem:hover {
+    opacity: 0.7;
+}
