@@ -1,0 +1,76 @@
+.formulario {
+    margin-top: 2rem;
+}
+
+.formulario__legenda {
+    color:#0d9b56;
+    font-size: 1.375rem;
+    margin: 1rem 0;
+}
+
+.input-container {
+    font-weight: 300;
+    position: relative;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+
+.input {
+    background-color: rgb(236, 236, 236);
+    box-sizing: border-box;
+    border-bottom: 1px solid #a2a8ad;
+    padding: 1.375rem 0.5rem 0.5rem;
+    height: 3.25rem;
+    width: 100%;
+}
+
+.input::placeholder {
+    visibility: hidden;
+    color: #00000000;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.input-label {
+    position: absolute;
+    top: 1.375rem;
+    left: 0.5rem;
+    font-size: 1.25rem;
+    transition: all .25s;
+}
+
+.input:not(:placeholder-shown) + .input-label, .input:focus + .input-label {
+    font-size: 0.875rem;
+    top: 0.25rem;
+    transition: all .25s;
+}
+
+.input-container--invalido {
+    margin-bottom: 0.5rem;
+}
+
+.input-container--invalido .input {
+    border: 1px solid #df2525;
+    border-radius: 7px;
+}
+
+.input-container--invalido .input-label {
+    color: #df2525;
+}
+
+.input-mensagem-erro {
+    display: none;
+}
+
+.input-container--invalido .input-mensagem-erro {
+    color: #df2525;
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+}
+

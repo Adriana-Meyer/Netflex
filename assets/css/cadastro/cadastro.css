@@ -1,0 +1,19 @@
+@import url(cadastro_reset.css);
+
+.container { 
+	margin: 3rem 0;
+	padding-right: 1rem;
+	padding-left: 1rem;
+}
+
+.flex {
+	display: flex;
+	flex-direction: column;
+}
+
+.flex--centro {
+	align-items: center;
+	justify-content: center;
+}
+
+
