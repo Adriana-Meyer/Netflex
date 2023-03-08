@@ -1,0 +1,248 @@
+{
+    "conteudos": [
+        {
+            "id": 1,
+            "titulo": "De volta para o futuro",
+            "categoria": "filme",
+            "genero": "Aventura",
+            "imagem": "./assets/img/conteudos/filmes/De-Volta-Para-O-Futuro.jpg",
+            "decricao": "Marty McFly é um adolescente típico americano dos anos 80. Acidentalmente ele viaja de volta no tempo para 1955 em uma máquina do tempo inventada pelo cientista maluco Dr. Brown. Durante sua incrível viagem ao passado, Marty tem como missão fazer com que seus pais ainda adolescentes se conheçam e se apaixonem. Só assim ele conseguirá ter uma chance de voltar ao futuro.",
+            "favorito": true,
+            "nota": 5
+        },
+        {
+            "id": 2,
+            "titulo": "E.T.: O Extraterrestre",
+            "categoria": "filme",
+            "genero": "Ficção Científica",
+            "imagem": "./assets/img/conteudos/filmes/ET.jpg",
+            "decricao": "Um garoto faz amizade com um ser de outro planeta, que ficou sozinho na Terra, protegendo-o de todas as formas para evitar que ele seja capturado e transformado em cobaia. Gradativamente surge entre os dois uma forte amizade.",
+            "favorito": false,
+            "nota": 4
+        },
+        {
+            "id": 3,
+            "titulo": "Forrest Gump",
+            "categoria": "filme",
+            "genero": "Drama",
+            "imagem": "./assets/img/conteudos/filmes/Forrest-Gump.jpg",
+            "decricao": "Quarenta anos da história dos Estados Unidos, vistos pelos olhos de rapaz com QI abaixo da média que, por obra do acaso, consegue participar de momentos cruciais, como a Guerra do Vietnã e Watergate.",
+            "favorito": true,
+            "nota": 5
+        },
+        {
+            "id": 4,
+            "titulo": "Free Guy",
+            "categoria": "filme",
+            "genero": "Comédia",
+            "imagem": "./assets/img/conteudos/filmes/Free-Guy.jpg",
+            "decricao": "Um caixa de banco, preso em sua rotina, descobre que ele é um personagem de fundo em um jogo de ação-aventura realista, de um mundo que ele é o único capaz de salvá-lo.",
+            "favorito": false,
+            "nota": 2
+        },
+        {
+            "id": 5,
+            "titulo": "Harry Potter e a Pedra Filosofal",
+            "categoria": "filme",
+            "genero": "Fantasia",
+            "imagem": "./assets/img/conteudos/filmes/Harry-Potter.jpg",
+            "decricao": "Harry Potter (Daniel Radcliffe) é um garoto órfão de 10 anos que vive infeliz com seus tios, os Dursley. Até que, repentinamente, ele recebe uma carta contendo um convite para ingressar em Hogwarts, uma famosa escola especializada em formar jovens bruxos. A partir de então Harry passa a conhecer um mundo mágico que jamais imaginara, vivendo as mais diversas aventuras com seus mais novos amigos, Rony Weasley (Rupert Grint) e Hermione Granger (Emma Watson).",
+            "favorito": true,
+            "nota": 4
+        },
+        {
+            "id": 6,
+            "titulo": "Inception",
+            "categoria": "filme",
+            "genero": "Ficção Científica",
+            "imagem": "./assets/img/conteudos/filmes/Inception.jpg",
+            "decricao": "Dom Cobb (Leonardo DiCaprio) é um habilidoso ladrão, o melhor na perigosa arte da extração, o roubo de valiosos segredos das profundezas do subconsciente durante os sonhos das pessoas, quando a mente fica totalmente vulnerável. Essa rara habilidade de Cobb fez dele um cobiçado jogador nesse traiçoeiro novo mundo da espionagem corporativa, mas também fez dele um fugitivo internacional que perdeu tudo o que mais amava. Agora, uma chance de redenção foi oferecida a Cobb. Um último trabalho pode trazer sua vida normal de volta, mas somente se ele conseguir o impossível, a inserção.",
+            "favorito": false,
+            "nota": 3
+        },
+        {
+            "id": 7,
+            "titulo": "Just Like Heaven",
+            "categoria": "filme",
+            "genero": "Romance",
+            "imagem": "./assets/img/conteudos/filmes/Just-Like-Heaven.jpg",
+            "decricao": "David Abbott (Mark Ruffalo) alugou recentemente um belo apartamento em São Francisco. A última coisa que ele gostaria era dividi-lo com alguém, mas logo surge uma jovem bonita e controladora, chamada Elizabeth (Reese Whiterspoon), que insiste que o apartamento é seu. David fica então convencido de que Elizabeth é um fantasma e passa a tentar ajudá-la a passar para o outro lado do pós-vida. Só que ela está convencida de que está viva e se recusa a fazer qualquer travessia.",
+            "favorito": true,
+            "nota": 5
+        },
+        {
+            "id": 8,
+            "titulo": "Sonic",
+            "categoria": "filme",
+            "genero": "Aventura",
+            "imagem": "./assets/img/conteudos/filmes/Sonic.jpg",
+            "decricao": "Após conseguir se estabelecer em Green Hills, Sonic está pronto para mais liberdade e quer provar que tem o necessário para ser um herói de verdade. Seu teste virá quando Tom e Maddie concordam em deixá-lo em casa enquanto saem de férias para ir ao casamento da irmã de Rachel, no Havaí. Mas para a infelicidade do ouriço, a data acaba coincidindo com o retorno do Dr. Robotnik, dessa vez com um novo parceiro, Knuckles, depois que o doutor do mal vai embora para o planeta cogumelo. O terrível Robotnik está à procura de uma esmeralda com o poder de destruir civilizações. Sonic se une a um novo companheiro, Tails, e juntos eles embarcam em uma jornada para encontrar a esmeralda antes que ela caia nas mãos erradas.",
+            "favorito": false,
+            "nota": 3
+        },
+        {
+            "id": 9,
+            "titulo": "The Batman",
+            "categoria": "filme",
+            "genero": "Ação",
+            "imagem": "./assets/img/conteudos/filmes/The-Batman.jpg",
+            "decricao": "Com apenas alguns aliados de confiança - Alfred Pennyworth e o tenente James Gordon - entre a rede corrupta de funcionários e figuras importantes do distrito, o vigilante solitário Batman está em seu segundo ano de carreira e se estabeleceu como a única personificação da vingança entre seus concidadãos. Durante uma de suas investigações, Bruce acaba envolvendo a si mesmo e Gordon em um jogo de gato e rato, ao investigar uma série de maquinações sádicas em uma trilha de pistas enigmáticas estabelecida pelo vilão Charada.",
+            "favorito": true,
+            "nota": 5
+        },
+        {
+            "id": 10,
+            "titulo": "Titanic",
+            "categoria": "filme",
+            "genero": "Drama",
+            "imagem": "./assets/img/conteudos/filmes/Titanic.jpg",
+            "decricao": "Em uma expedição aos destroços do Titanic leva uma sobrevivente do naufrágio a relembrar uma grande história de amor que viveu no navio. Em 1912, na única viagem do que então era o maior navio já construído, Rose (Winslet) é uma jovem da alta sociedade prestes a se casar com seu rico noivo. Mas a bordo do Titanic ela conhece Jack Dawson (DiCaprio), um jovem simples e aventureiro, e se apaixona pelo rapaz. As diferenças sociais fazem com que muitos se oponham ao relacionamento que surge. Em meio ao intenso romance e à rebeldia dos dois, acontece o trágico acidente, que eles enfrentam juntos.",
+            "favorito": false,
+            "nota": 4
+        },
+        {
+            "id": 11,
+            "titulo": "Tudo em Todo O Lugar ao Mesmo Tempo",
+            "categoria": "filme",
+            "genero": "Ficção Científica",
+            "imagem": "./assets/img/conteudos/filmes/Tudo-Em-Todo-Lugar-Ao-Mesmo-Tempo.jpg",
+            "decricao": "Evelyn Wang (Michelle Yeoh) é uma cansada mulher chinesa que luta para se manter e manter a vida da família nos Estados Unidos. O marido quer o divórcio, a filha se mostra rebelde e o pai está doente. Mas tudo fica anda mais estranho quando ela descobre que é a chave para salvar o multiverso, e pode acessar o conhecimento e os talentos de todos os seus vários eus através dos infinitos universos.",
+            "favorito": true,
+            "nota": 5
+        },
+        {
+            "id": 12,
+            "titulo": "Wall-e",
+            "categoria": "filme",
+            "genero": "Animação",
+            "imagem": "./assets/img/conteudos/filmes/Wall-e.jpg",
+            "decricao": "Após entulhar a Terra de lixo e poluir a atmosfera com gases tóxicos, a humanidade deixou o planeta e passou a viver em uma gigantesca nave. O plano era que o retiro durasse alguns poucos anos, com robôs sendo deixados para limpar o planeta. Wall-E é o último destes robôs, que se mantém em funcionamento graças ao auto-conserto de suas peças. Sua vida consiste em compactar o lixo existente no planeta, que forma torres maiores que arranha-céus, e colecionar objetos curiosos que encontra ao realizar seu trabalho. Até que um dia surge repentinamente uma nave, que traz um novo e moderno robô: Eva. A princípio curioso, Wall-E logo se apaixona pela recém-chegada.",
+            "favorito": false,
+            "nota": 4
+        },
+        {
+            "id": 13,
+            "titulo": "Chuck",
+            "categoria": "serie",
+            "genero": "Ação",
+            "imagem": "./assets/img/conteudos/series/Chuck.jpg",
+            "decricao": "Após Chuck receber de um de seus ex-colegas da faculdade, atualmente, agente corrupto da CIA, Bryce Larkin, um e-mail com uma série de imagens encriptadas, o jovem viciado em computadores passa a ter, sem perceber, a base de dados dos segredos governamentais gravados no cérebro. Rapidamente, a NSA e a CIA mandam um agente de cada equipe, para protegê-lo e impedir que esses segredos caiam em mãos erradas. Assim, ele deve aprender a dividir sua vida entre ser um amigável nerd de informática e um recurso das agências em missões secretas.",
+            "favorito": true,
+            "nota": 4
+        },
+        {
+            "id": 14,
+            "titulo": "CSI: Investigação Criminal",
+            "categoria": "serie",
+            "genero": "Policial",
+            "imagem": "./assets/img/conteudos/series/CSI.jpg",
+            "decricao": "A série é centrada nas investigações do grupo de cientistas forenses do departamento de criminalística da polícia de Las Vegas, Nevada. Estes cientistas, designados CSI's (Crime Scene Investigators), desvendam crimes e mortes em circunstâncias misteriosas e pouco comuns.",
+            "favorito": false,
+            "nota": 3
+        },
+        {
+            "id": 15,
+            "titulo": "Friends",
+            "categoria": "serie",
+            "genero": "Comédia",
+            "imagem": "./assets/img/conteudos/series/Friends.jpg",
+            "decricao": "Friends conta a história de seis personagens principais: Rachel, Monica, Phoebe, Joey, Chandler e Ross, mostrando todas as suas situações cotidianas, trabalhos, amores, problemas e confusões do dia-a-dia morando em Nova York e freqauentando a cafeteria local, o Central Perk.",
+            "favorito": true,
+            "nota": 5
+        },
+        {
+            "id": 16,
+            "titulo": "Dr. House",
+            "categoria": "serie",
+            "genero": "Drama",
+            "imagem": "./assets/img/conteudos/series/House MD.jpg",
+            "decricao": "O Dr. Gregory House (Hugh Laurie), é um brilhante profissional da área médica, desprovido de boas maneiras e nem ao menos falaria com os seus pacientes se não fosse preciso. Tendo que lidar com sua própria dor física constante, ele utiliza uma bengala que parece acentuar sua acidez, comportamento rude e brutalmente honesto. Embora a sua conduta possa ser taxada de extremamente antisocial, House é um especialista cujo raciocínio não é nada convencional e possui instinto certeiro que permite que ele encare novos pacientes, com sintomas inexplicáveis, e junto de sua equipe de médicos dedicados e enfermeiras, ele deve descobrir misteriosos diagnósticos...antes que seja tarde!",
+            "favorito": false,
+            "nota": 4
+        },
+        {
+            "id": 17,
+            "titulo": "Monk: Um Detetive Diferente",
+            "categoria": "serie",
+            "genero": "Comédia",
+            "imagem": "./assets/img/conteudos/series/Monk.jpg",
+            "decricao": "Três anos após perder o emprego na polícia de São Francisco, Monk trabalha como detetive particular, investigando casos que a polícia não consegue resolver. Monk é um detetive com TOC e diversas compulsões, que dificultam sua vida em muitos aspectos, mas também fazem com que ele veja detalhes que ninguém mais percebe. Agora ele tem que superar seus temores e o comportamento compulsivo para tentar recuperar seu prestigio e seu antigo cargo na policia.",
+            "favorito": true,
+            "nota": 5
+        },
+        {
+            "id": 18,
+            "titulo": "Only Murders in the Building",
+            "categoria": "serie",
+            "genero": "Mistério",
+            "imagem": "./assets/img/conteudos/series/Only-Murders-In-The-Building.jpg",
+            "decricao": "Três vizinhos (Steve Martin, Martin Short, Selena Gomez) que compartilham uma obsessão por histórias de crimes reais acabam se vendo no meio de uma e começam um podcast sobre o tema, mas com uma regra: Investigar apenas assassinatos do seu próprio prédio.",
+            "favorito": true,
+            "nota": 4
+        },
+        {
+            "id": 19,
+            "titulo": "Pushing Daisies",
+            "categoria": "serie",
+            "genero": "Mistério",
+            "imagem": "./assets/img/conteudos/series/Pushing-Daisies.jpg",
+            "decricao": "Esse drama romântico nos mostra o estranho mundo de um homem, Ned, que pode trazer pessoas mortas de volta à vida com o poder de seu toque. Mas as pessoas que ele toca só poderão continuar vivas por um minuto, e se elas não morrerem novamente, alguém próximo irá morrer. Ned decide usar a sua habilidade para resolver crimes. Ele e o investigador local, Emerson, trazem vítimas de assassinato de volta a vida para descobrir quem as matou. Mas quando Ned traz de volta à vida seu grande amor, e decide deixá-la viver, as coisas começam a ficar complicadas.",
+            "favorito": false,
+            "nota": 3
+        },
+        {
+            "id": 20,
+            "titulo": "Stranger Things",
+            "categoria": "serie",
+            "genero": "Aventura",
+            "imagem": "./assets/img/conteudos/series/Stranger-Things.jpg",
+            "decricao": "Na década de 1980, a história inicia com o desaparecimento de Will, um menino de 12 anos. Enquanto a família e os amigos tentam entender o que aconteceu, o chefe de polícia Hooper inicia uma investigação e se depara com experiências secretas conduzidas pelo governo numa base militar no subúrbio da cidade. Ao mesmo tempo, os amigos de Will - Mike, Dustin e Lucas - tentam localizá-lo por conta própria, mas acabam encontrando Eleven, uma menina misteriosa, com estranhos poderes.",
+            "favorito": true,
+            "nota": 5
+        },
+        {
+            "id": 21,
+            "titulo": "Supergirl",
+            "categoria": "serie",
+            "genero": "Ação",
+            "imagem": "./assets/img/conteudos/series/Supergirl.jpg",
+            "decricao": "Nascida Kara Zor-El, no condenado planeta Krypton, quando pré-adolescente ela fugiu junto com Kal-El, mas só chegou à Terra muitos anos depois, após ter se perdido na Zona Fantasma. Protegida e criada por sua família adotiva, os Danvers, Kara cresceu à sombra de sua irmã adotiva, Alex, e aprendeu a esconder os poderes fenomenais que compartilha com o primo famoso. Anos depois, aos 24 anos, vivendo em National City e trabalhando como assistente para a CatCo Worldwide Media, da magnata Cat Grant, ela decide abraçar suas habilidades sobre-humanas e se torna a heroína que sempre foi predestinada a ser.",
+            "favorito": false,
+            "nota": 4
+        },
+        {
+            "id": 22,
+            "titulo": "The Good Place",
+            "categoria": "serie",
+            "genero": "Comédia",
+            "imagem": "./assets/img/conteudos/series/The-Good-Place.jpg",
+            "decricao": "Ao morrer, Eleanor (Kristen Bell) é mandada ao Bom Lugar, onde as almas das pessoas com boas atitudes na vida vivem pela eternidade. Mas como a mesma foi uma péssima pessoa durante sua estadia na Terra, ela percebe que aquilo foi um erro. Para conquistar seu lugar antes que alguém descubra, ela conta com a ajuda de Chidi (William Jackson Harper), um ex-professor de ética e sua alma gêmea designada no Bom Lugar, para se tornar uma pessoa melhor",
+            "favorito": true,
+            "nota": 5
+        },
+        {
+            "id": 23,
+            "titulo": "Vidrados",
+            "categoria": "serie",
+            "genero": "Reality Show",
+            "imagem": "./assets/img/conteudos/series/Vidrados.jpg",
+            "decricao": "Dez mestres artesãos se preparam para uma competição de esculturas de vidro. O campeão receberá 60 mil dólares em prêmios.",
+            "favorito": false,
+            "nota": 2
+        },
+        {
+            "id": 24,
+            "titulo": "WandaVison",
+            "categoria": "serie",
+            "genero": "Drama",
+            "imagem": "./assets/img/conteudos/series/Wandavision.jpg",
+            "decricao": "Após os eventos de Vingadores: Ultimato (2019), Wanda Maximoff e Visão se esforçam para levar uma vida normal no subúrbio e esconder seus poderes. Mas a dupla de super-heróis logo começa a suspeitar que nem tudo está tão certo assim. Eles se encontram, na verdade, dentro de uma constante sitcom, que vai desde a década de 50 até os dias de hoje. Conforme o tempo passa, Wanda e Visão perdem o controle da situação, sem saber mais o que é real e o que é ficção.",
+            "favorito": true,
+            "nota": 5
+        }
+
+    ]
+
+   
+
+}
